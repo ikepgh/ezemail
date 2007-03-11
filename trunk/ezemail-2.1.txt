@@ -1,0 +1,73 @@
+EZemail - ver. 2.1
+
+Website:
+http://ezemail.sourceforge.net
+http://sourceforge.net/projects/ezemail/
+
+Added to the subversion repository 3/11/07
+
+Description:
+EZemail is a small email program that demonstrates some of Perl's TK/SMTP/POP/MIME capabilities. If you find it useful, helpful or improve it let me know by testing it out and sending me an email (doesn't get any easier than that!).  Send it to: ikepgh@yahoo.com
+
+--ikepgh - 12/17/04 
+ 
+Usage Notes:
+Settings are now handled by a config file!  Note:  Your username and password are not encrypted so only use on machines that you are sure are secure... i.e., your own computer, secure network, intranet, etc.  
+
+Windows Notes:  
+Not necessary, but you can create a shortcut to a .bat file and then set the shortcut properties to use the .ico file.  You now have a nice icon to start the program from your desktop instead of DOS!  By doing this, you can then set the properties of the shortcut to run the DOS window "minimized" so that it won't pop up each time the program is run. Don't forget to point the shortcut at the ezemail.pl script (also in the shortcut's properties).  An example .bat and the .ico file are included in this archive to get you started. 
+ 
+Requires: 
+Perl, TK, LibNet Package (Specifically, Net::SMTP and Net::POP3) and now, MIME::Lite
+ 
+Tested:
+EZemail was built with Active State's Perl 5.8.4 Build 810 for Win XP, It has not been thoroughly tested on other platforms yet, but I'd be keen to hear about it.
+Also Tested On: Perl 5.6.1 Build 629 for Win 98  
+ 
+License: 
+Artistic License
+ 
+History:
+12/17/2004 - version 2.1 released
+11/28/2004 - password entry fixed, suppress content headers
+11/27/2004 - added 'bcc code' works great w/ MIME::Lite
+11/26/2004 - removed signature, implemented attachments!
+11/25/2004 - version 2.0 released
+11/24/2004 - multiple recipients now works!
+11/23/2004 - added balloon help on 'to' and 'cc'
+11/22/2004 - removed error code for 'to' entry widget
+11/21/2004 - removed buggy 'bcc' code (needs more work..)
+11/20/2004 - code cleanup, 'use strict;' turned back on
+11/19/2004 - misc small and minor tweaks
+11/18/2004 - fixed info dialog wording for config file save
+11/17/2004 - removed Windows IE specific code! oops...
+11/16/2004 - version 1.9 released
+11/15/2004 - config file finally finished!
+11/14/2004 - fixed clear function 
+11/11/2004 - version 1.8 released
+10/22/2004 - added 'cc' and 'bcc', help file w/ hyperlink
+10/21/2004 - added next, close, delete logic, added menus 
+10/20/2004 - major code cleanup
+10/19/2004 - added next, delete buttons
+10/18/2004 - moved message from dialog box to text window 
+10/17/2004 - entire message now readable in a dialog box
+10/16/2004 - work began once again, ip check, about added
+11/27/2003 - version 1.7 released
+02/15/2002 - centering routine, menu, settings interface
+02/14/2002 - rearranged variables for future config file 
+02/10/2002 - version 1.6 released
+12/05/2001 - added dialog bitmaps and cleaned up code
+12/04/2001 - added header routine and button
+11/30/2001 - version 1.5 released
+11/30/2001 - fixed the border and cleaned up gif image
+11/29/2001 - fixed the first character bug     
+11/28/2001 - added POP check button & routine
+11/27/2001 - added some error checking/dialogs
+11/22/2001 - first public release - 0.4.2
+11/21/2001 - added exit, clear button, scroll bar
+11/20/2001 - added image and time routine
+11/17/2001 - concieved the idea and began coding
+ 
+To Do List:
+add more features as I learn more Perl/TK. . .
+
