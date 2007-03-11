@@ -6,6 +6,8 @@ http://sourceforge.net/projects/ezemail/
 
 Added to the subversion repository 3/11/07
 
+Testing Subversion.....
+
 Description:
 EZemail is a small email program that demonstrates some of Perl's TK/SMTP/POP/MIME capabilities. If you find it useful, helpful or improve it let me know by testing it out and sending me an email (doesn't get any easier than that!).  Send it to: ikepgh@yahoo.com
 
